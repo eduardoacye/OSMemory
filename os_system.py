@@ -27,7 +27,7 @@ class OperatingSystem(object):
         s+= self.new_queue.__repr__() + '\n'
         s+= self.waiting_queue.__repr__() + '\n'
         s+= self.st_queue.__repr__() + '\n'
-        s+= self.lt_queue.__repr__() + '\n'
+        # s+= self.lt_queue.__repr__() + '\n'
         s+= '================================================='
         return s
 
